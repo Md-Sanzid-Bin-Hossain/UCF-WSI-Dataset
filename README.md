@@ -11,3 +11,7 @@ In this paper, we introduce a challenging dataset, which contains 15 organ class
 Our dataset is available on the following [link](https://stars.library.ucf.edu/ucfnecropsywsi/). Dataset contains 15 organ classes. A sample WSI image of each Organ class is provided in the following Figure.
 
 ![Alt text](Images/WSI_all_organs.png)
+
+## Code
+1. Code to run the patch extraction can be found in the following [Google Colab notebook](Patch_batch_processing.ipynb)
+2. Code to run the classification task can be found in the following [Google Colab notebook](UCF_WSI_Classification_model.ipynb)
