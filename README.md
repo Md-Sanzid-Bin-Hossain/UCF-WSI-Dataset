@@ -1,4 +1,4 @@
-# A Public Dataset of Histopathology Images for Deep Learning Model-Based Organ Classification
+# UCF-MultiOrgan-Path: A Public Benchmark Dataset of Histopathologic Images for Deep Learning Model Based Organ Classification
 By Md Sanzid Bin Hossain, Yelena Piazza, Jacob Braun, Anthony Bilic, Michael Hsieh, Samir Fouissi, Chen Chen, Liqian Wang, Husain Mujtaba, Dexter Hadley
 
 ## Summary
