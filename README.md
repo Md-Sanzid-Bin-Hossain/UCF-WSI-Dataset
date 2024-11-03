@@ -1,12 +1,24 @@
 # UCF-MultiOrgan-Path: A Public Benchmark Dataset of Histopathologic Images for Deep Learning Model Based Organ Classification
-By Md Sanzid Bin Hossain, Yelena Piazza, Jacob Braun, Anthony Bilic, Michael Hsieh, Samir Fouissi, Alexander Borowsky, Hatem Kaseb, Amoy Fraser, Britney-Ann Wray, Chen Chen, Liqiang Wang, Mujtaba Husain, and Dexter Hadley
 
-## Summary
-In this paper, we introduce a challenging dataset, which contains 15 organ classes for deep learning model development and validation. Our publicly available dataset addresses a crucial gap in digital pathology by providing a large, diverse, and annotated collection of whole slide histopathology images, following FAIR principles. It serves as a benchmark for medical imaging analysis tasks like disease classification, and cancer and pneumonia cell segmentation, enabling improved diagnostics and treatment strategies. With its diverse organ classes and a vast number of patches, it is an ideal resource for transfer learning, accelerating research progress. Crucially, by introducing substantial publicly available data into this field, the dataset overcomes a fundamental challenge, paving the way for more robust deep-learning models in digital pathology. Overall approach of our work is provided in the following Figure:
+## Dataset Description
+
+### Paper Reference
+**Title**: UCF-MultiOrgan-Path: A Public Benchmark Dataset of Histopathologic Images for Deep Learning Model Based Organ Classification  
+Authors: By Md Sanzid Bin Hossain, Yelena Piazza, Jacob Braun, Anthony Bilic, Michael Hsieh, Samir Fouissi, Alexander Borowsky, Hatem Kaseb, Amoy Fraser, Britney-Ann Wray, Chen Chen, Liqiang Wang, Mujtaba Husain, and Dexter Hadley 
+
+
+### Abstract
+A pathologist diagnoses diseases by examining tissue slides under a microscope. The entire tissue specimen can be digitally stored as a Whole Slide Image (WSI). However, diagnosing large volumes of WSIs manually is time-consuming and requires expertise. Deep learning offers a promising approach to automate disease diagnosis in histopathology. **UCF-MultiOrgan-Path** is a dataset designed to support research in digital pathology, providing nearly 1,000 WSIs and over 2.38 million patches for 15 organ classes. This dataset serves as a benchmark for developing and validating organ classification models.
 
 ![Alt text](Images/overall_process.png)
 
 <br>
+
+
+### Dataset Composition
+- **Whole Slide Images (WSIs)**: 977 WSIs at 20x magnification.
+- **Image Patches**: Approximately 2.38 million 512x512 patches extracted from the WSIs.
+- **Organ Classes**: Lung, Liver, Kidney, Brain, Spleen, Pancreas, Prostate, Skin, Bladder, Heart, Adrenal, Colon, Lymph Node, Thyroid, Breast.
 
 
 ## Dataset
